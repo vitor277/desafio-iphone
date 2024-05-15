@@ -2,7 +2,7 @@ package interfaces;
 
 public interface AparelhoTelefonico {
 
-    public void ligar(int numero);
+    public void ligar(String numero);
     public void atender();
     public void iniciarCorreioVoz();
     

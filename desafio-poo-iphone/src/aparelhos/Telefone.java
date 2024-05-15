@@ -5,7 +5,7 @@ import interfaces.AparelhoTelefonico;
 public class Telefone implements AparelhoTelefonico {
 
     @Override
-    public void ligar(int numero) {
+    public void ligar(String numero) {
         // TODO Auto-generated method stub
         System.out.println("Ligando para: " + numero);
     }

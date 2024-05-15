@@ -27,7 +27,7 @@ public class Iphone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
     @Override
     public void exibirPagina(String nomePagina) {
         // TODO Auto-generated method stub
-        System.out.println("Exibindo pagina" + nomePagina);
+        System.out.println("Exibindo pagina: " + nomePagina);
     }
 
     @Override
@@ -43,7 +43,7 @@ public class Iphone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
     }
 
     @Override
-    public void ligar(int numero) {
+    public void ligar(String numero) {
         // TODO Auto-generated method stub
         System.out.println("Ligando para: " + numero);
     }
